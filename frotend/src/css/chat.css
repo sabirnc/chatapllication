@@ -1,0 +1,40 @@
+.local-chat{
+    padding:.5em .4em;
+    background-color: #202c33;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(134,150,160,0.1);
+
+
+}
+
+.chat-icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #202c33;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgb(15, 180, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: .5px;
+    text-transform:capitalize;
+    flex-grow: 10;
+    text-align: center;
+    padding: .3em 0;
+    padding-right: 4em;
+    opacity: 0.9;
+}
+
+.local-chat:hover{
+    background-color: #0a1014;
+    border: 2px solid rgba(134,150,160,0.1);
+}

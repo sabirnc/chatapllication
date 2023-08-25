@@ -1,0 +1,23 @@
+.input-container{
+    height: 60px;
+    padding: 0em 1em;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1014;
+    border: 1px solid #222c33;
+}
+
+.send-btn{
+    background-color: #222c33;
+    border: none;
+    padding: .6em 1em;
+    border-radius: 50%;
+    object-fit: cover;
+    font-stretch: normal;
+    cursor: pointer;
+}
+
+.send-btn::before{
+    content: url("../images/paper-plane.png");
+}
